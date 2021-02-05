@@ -1,7 +1,7 @@
 ## twitter012 | #つぶやきProcessing 
 https://twitter.com/nicolasbaez/status/1309360497553276928?s=20
 
-![twitter](https://github.com/nicolasbaez/twitter012/blob/master/twitter011.gif)
+![twitter](https://github.com/nicolasbaez/twitter012/blob/master/twitter012.gif)
 ```processing
 int i, j, k, w=512;
 int y[]=new int[w];
