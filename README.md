@@ -1,2 +1,26 @@
-# twitter012
-#つぶやきProcessing int i,j,k,w=512;int y[]=new int[w];void setup(){size(512,512);}void draw(){clear();noStroke();for(i=0;i&lt;w;i++){colorMode(HSB,w);j=y[i];k=(int)map(j,0,w,0,64);fill(j,w,w,k);circle(256+random(9),j,k);y[i]-=random(9);if(j&lt;0)y[i]=448;}fill(0);rect(256,448,3,99);}
+## twitter012 | #つぶやきProcessing 
+https://twitter.com/nicolasbaez/status/1309360497553276928?s=20
+
+![twitter](https://github.com/nicolasbaez/twitter012/blob/master/twitter011.gif)
+```processing
+int i, j, k, w=512;
+int y[]=new int[w];
+void setup() {
+  size(512, 512);
+}
+void draw() {
+  clear();
+  noStroke();
+  for (i=0; i<w; i++) {
+    colorMode(HSB, w);
+    j=y[i];
+    k=(int)map(j, 0, w, 0, 64);
+    fill(j, w, w, k);
+    circle(256+random(9), j, k);
+    y[i]-=random(9);
+    if (j<0)y[i]=448;
+  }
+  fill(0);
+  rect(256, 448, 3, 99);
+}
+```
